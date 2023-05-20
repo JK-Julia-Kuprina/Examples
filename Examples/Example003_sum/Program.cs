@@ -1,3 +1,6 @@
-﻿int a = 2;
-int b = 9;
+﻿int a = new Random().Next(1, 10); // 1 2 3 4...9
+Console.WriteLine(a);
+int b = new Random().Next(1, 10);
+Console.WriteLine(b);
+int result = a + b;
 Console.WriteLine(a + b);
